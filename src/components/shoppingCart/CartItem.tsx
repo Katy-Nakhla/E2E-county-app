@@ -12,7 +12,7 @@ const CartItem: React.FC<Props> = (props: Props) => {
     <div className="flex justify-between gap-4 mb-3 ">
       <Image
         src={props.item.image}
-        alt=""
+        alt="product image"
         width={72}
         height={96}
         className="object-cover rounded-md"

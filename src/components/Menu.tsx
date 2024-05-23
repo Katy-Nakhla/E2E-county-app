@@ -12,7 +12,7 @@ const Menu = () => {
     <div>
       <Image
         src="/menu.png"
-        alt=""
+        alt="menu icon"
         width={28}
         height={28}
         className="cursor-pointer"

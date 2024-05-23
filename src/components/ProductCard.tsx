@@ -16,7 +16,7 @@ const ProductCard: React.FC<Props> = (props: Props) => {
       <div className="relative w-full h-60 overflow-hidden rounded-md">
         <Image
           src={props.product.image}
-          alt=""
+          alt="product image"
           fill
           sizes="25vw"
           className="absolute object-cover z-10 hover:scale-150 transition-opacity easy duration-200"

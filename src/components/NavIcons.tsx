@@ -17,7 +17,7 @@ const NavIcons = () => {
     <div className="flex items-center gap-4 relative">
       <Image
         src="/profile.png"
-        alt=""
+        alt="user profile"
         width={22}
         height={22}
         className="cursor-pointer"
@@ -25,7 +25,7 @@ const NavIcons = () => {
 
       <Image
         src="/notification.png"
-        alt=""
+        alt="notification"
         width={22}
         height={22}
         className="cursor-pointer"
@@ -33,7 +33,7 @@ const NavIcons = () => {
       <div className="relative cursor-pointer" onClick={handleCart}>
         <Image
           src="/cart.png"
-          alt=""
+          alt="cart"
           width={22}
           height={22}
           className="cursor-pointer"
